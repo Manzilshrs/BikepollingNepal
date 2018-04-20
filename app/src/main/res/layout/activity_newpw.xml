@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.manzil.bikepollingnepal.newpwActivity"
+    android:background="@mipmap/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Password"
+        android:textSize="33sp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:hint="New Password"
+        android:textColorHint="#fff"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:hint="Re-enter New Password"
+        android:textColorHint="#fff"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        />
+    <Button
+        android:id="@+id/confirm"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:textSize="17sp"
+        android:padding="10dp"/>
+
+</LinearLayout>

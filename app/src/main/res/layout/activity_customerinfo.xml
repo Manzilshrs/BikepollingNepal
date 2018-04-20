@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.manzil.bikepollingnepal.OfferActivity"
+    android:background="@mipmap/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Customer Information:"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter your Name"
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:textColorHint="#fff"
+                android:textSize="21sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="From (current location)"
+                android:padding="15dp"
+                android:textColorHint="#fff"
+                android:textSize="21sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="To (destination location)"
+                android:padding="15dp"
+                android:textColorHint="#fff"
+                android:textSize="21sp" />
+
+            <DatePicker
+                android:background="#fff"
+                android:layout_width="wrap_content"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"
+                android:calendarTextColor="#fff"></DatePicker>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Time "
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:textColorHint="#fff"
+                android:textSize="21sp" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

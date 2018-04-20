@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.manzil.bikepollingnepal.OfferActivity"
+    android:background="@mipmap/background">
+
+    <ScrollView
+        android:layout_width="765dp"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Rider Information:"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff" />
+
+        <EditText
+            android:id="@+id/bikename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Enter your Bike Name"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/bikeno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Enter your Bike Register Number..."
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+
+        <DatePicker
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:calendarTextColor="#fff"
+            android:textColor="#fff"></DatePicker>
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Enter Time "
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Enter cost for ride"
+            android:padding="15dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+
+        <EditText
+            android:id="@+id/currentlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="From (current location)"
+            android:padding="15dp"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/nearbylocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Next nearby location"
+            android:padding="15dp"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+
+        <EditText
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="To (destination location)"
+            android:padding="15dp"
+            android:textColorHint="#fff"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/addmore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Please click here to add more nearby location"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
